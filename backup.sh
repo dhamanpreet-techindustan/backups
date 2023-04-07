@@ -18,6 +18,7 @@ tar czf  $backup_file --absolute-names $src_dir
 
 #git init
 #git checkout -b master
+cd $src_dir
 git add .
 git commit -m "committed"
 git pull --rebase origin master
