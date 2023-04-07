@@ -8,7 +8,9 @@ backup_file=$tgt_dir/$curr_timestamp.tgz
 echo "Taking backup"
 #echo "$backup_file"
 
-tar czf $backup_file --absolute-names $src_dir
+#tar czf $backup_file --absolute-names $src_dir
+#for file save in zip file
+tar czf  $backup_file --absolute-names $src_dir
 
 #declare -A map
 
