@@ -15,10 +15,10 @@ declare -A map
 map["back"]="backups"
 
 #git init
-git checkout -b master
+#git checkout -b master
 git add .
 git commit -m "committed"
-
+git push origin master
 #for i in "$(!map[@])"
 #do
 #	git remote add $i git@github.com:dhamanpreet-techindustan/${map[$i]}.git
