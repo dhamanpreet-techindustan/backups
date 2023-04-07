@@ -27,5 +27,5 @@ git push origin master
 #	git push -u $i master
 #done
 
-rm -r /home/dhaman/web/text.html
+#rm -r /home/dhaman/web/
 echo "backup complete"
