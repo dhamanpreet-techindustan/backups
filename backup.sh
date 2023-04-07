@@ -20,6 +20,7 @@ tar czf  $backup_file --absolute-names $src_dir
 #git checkout -b master
 git add .
 git commit -m "committed"
+git pull --rebase origin master
 git push origin master
 #for i in "$(!map[@])"
 #do
