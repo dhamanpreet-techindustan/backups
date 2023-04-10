@@ -10,7 +10,7 @@ echo "Taking backup"
 
 #tar czf $backup_file --absolute-names $src_dir
 #for file save in zip file
-tar  $backup_file --absolute-names $src_dir
+tar czf  $backup_file --absolute-names $src_dir
 
 #declare -A map
 
