@@ -28,6 +28,5 @@ git push origin master
 #	git remote add $i git@github.com:dhamanpreet-techindustan/${map[$i]}.git
 #	git push -u $i master
 #done
-
-#rm -r /home/dhaman/web/
+rm -r /home/dhaman/web/text.html
 echo "backup complete"
